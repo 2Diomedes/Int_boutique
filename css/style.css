@@ -1,2 +1,44 @@
-header{background:#281400;text-align:center;color:#bbb9b9}header li{list-style-type:none;padding:0}header li a{color:#bbb9b9}header li a:hover{color:#bbb9b9}header h1{color:white}header h2{color:white}main{background:grey;padding:1rem}main h3{text-align:center}ul{list-style-type:none;padding:0}
+/*----------  Mother  ----------*/
+/*----------  Mother  ----------*/
+/*----------  Header  ----------*/
+header {
+  background: #281400;
+  text-align: center;
+  color: #bbb9b9; }
+  header li {
+    list-style-type: none;
+    padding: 0; }
+    header li a {
+      color: #bbb9b9; }
+    header li a:hover {
+      color: #bbb9b9; }
+  header h1 {
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 1.8rem; }
+  header h2 {
+    color: white;
+    font-size: 2.6rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 2rem; }
+
+/*----------  Header  ----------*/
+/*----------  Main  ----------*/
+main {
+  background: grey;
+  padding: 1rem; }
+  main h3 {
+    text-align: center; }
+
+/*----------  Main  ----------*/
+/*----------  Footer  ----------*/
+ul {
+  list-style-type: none;
+  padding: 0; }
+
+/*----------  Footer  ----------*/
+
 /*# sourceMappingURL=style.css.map */
