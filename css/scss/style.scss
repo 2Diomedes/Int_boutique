@@ -5,13 +5,19 @@
 /*----------  Mother  ----------*/
 /*----------  Header  ----------*/
 header {
-  background: #281400;
   text-align: center;
   color: #bbb9b9;
   position: relative;
+  background-image: url("/home/thibault/CODE/Challenge/Int_Boutique/jd_turk_streaming.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   .dropdown-menu {
     background-color: transparent;
   }
+
   .badge {
     background: #a28f61;
     padding: 1rem 2rem;
@@ -19,27 +25,33 @@ header {
     text-transform: uppercase;
     color: white;
   }
+
   .badge:hover {
     color: white;
     text-decoration: none;
     font-size: 1rem;
     border: 2px outset white;
   }
+
   .dropdown {
     position: absolute;
     top: 0;
     right: 0;
+
     a {
       color: #bbb9b9;
     }
+
     a:hover {
       color: #bbb9b9;
     }
   }
+
   li {
     list-style-type: none;
     padding: 0;
   }
+
   h1 {
     color: white;
     font-family: 'Alegreya Sans', sans-serif;
@@ -48,6 +60,7 @@ header {
     margin-bottom: 1.8rem;
     text-transform: uppercase;
   }
+
   h2 {
     color: white;
     font-size: 2.6rem;
@@ -55,6 +68,7 @@ header {
     font-weight: bold;
     margin-bottom: 2rem;
   }
+
   .navbar {
     text-align: left;
   }
@@ -63,11 +77,13 @@ header {
 /*----------  Main  ----------*/
 main {
   padding: 1rem;
+
   h3 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
   }
+
   .card {
     box-shadow: 1px 6px 24px -11px rgba(0,0,0,0.75);
   }
@@ -78,16 +94,20 @@ footer {
   background: #0f3e57;
   padding: 3rem;
   margin-top: 4rem;
+
   i {
     margin-right: 1rem;
   }
+
   h4 {
     color: white;
   }
+
   ul {
     list-style-type: none;
     padding: 0;
   }
+
   li {
     color: #a69f92;
   }
