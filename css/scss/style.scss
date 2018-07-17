@@ -1,100 +1,107 @@
 /*----------  Mother  ----------*/
+.container-fluid {
+    padding: 0;
+}
 /*----------  Mother  ----------*/
 /*----------  Header  ----------*/
 header {
-  background: #281400;
-  text-align: center;
-  color: #bbb9b9;
-  position: relative;
+    background: #281400;
+    text-align: center;
+    color: #bbb9b9;
+    position: relative;
 
-  .dropdown-menu {
-    background-color: transparent;
-  }
-
-  .badge {
-    background: #a28f61;
-    padding: 1rem 2rem;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    color: white;
-  }
-
-  .badge:hover {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    border: 2px outset white;
-  }
-
-  .dropdown {
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    a {
-      color: #bbb9b9;
+    .dropdown-menu {
+        background-color: transparent;
     }
 
-    a:hover {
-      color: #bbb9b9;
+    .badge {
+        background: #a28f61;
+        padding: 1rem 2rem;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        color: white;
     }
-  }
 
-  li {
-    list-style-type: none;
-    padding: 0;
-  }
+    .badge:hover {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        border: 2px outset white;
+    }
 
-  h1 {
-    color: white;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 3.5em;
-    font-weight: bold;
-    margin-bottom: 1.8rem;
-    text-transform: uppercase;
-  }
+    .dropdown {
+        position: absolute;
+        top: 0;
+        right: 0;
 
-  h2 {
-    color: white;
-    font-size: 2.6rem;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: bold;
-    margin-bottom: 2rem;
-  }
+        a {
+            color: #bbb9b9;
+        }
 
-  .navbar {
-    text-align: left;
-  }
+        a:hover {
+            color: #bbb9b9;
+        }
+    }
+
+    li {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 3.5em;
+        font-weight: bold;
+        margin-bottom: 1.8rem;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        color: white;
+        font-size: 2.6rem;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+
+    .navbar {
+        text-align: left;
+    }
 }
 /*----------  Header  ----------*/
 /*----------  Main  ----------*/
 main {
-  background: grey;
-  padding: 1rem;
+    padding: 5rem;
 
-  h3 {
-    text-align: center;
-  }
+    h3 {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .card {
+        box-shadow: 1px 6px 24px -11px rgba(0,0,0,0.75);
+    }
 }
 /*----------  Main  ----------*/
 /*----------  Footer  ----------*/
 ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 /*----------  Footer  ----------*/
 /*----------  Media  ----------*/
 @media screen and (min-width:992px) {
-  .title {
-    width: 30rem;
-    margin: auto;
-    padding: 10rem 0 15rem 0;
-  }
+    .title {
+        width: 30rem;
+        margin: auto;
+        padding: 10rem 0 15rem;
+    }
 }
-
 @media screen and (max-width:992px) {
-  .title {
-    padding: 3rem 0 5rem 0;
-  }
+    .title {
+        padding: 3rem 0 5rem;
+    }
 }
 /*----------  Media  ----------*/
