@@ -9,11 +9,9 @@ header {
   text-align: center;
   color: #bbb9b9;
   position: relative;
-
   .dropdown-menu {
     background-color: transparent;
   }
-
   .badge {
     background: #a28f61;
     padding: 1rem 2rem;
@@ -21,33 +19,27 @@ header {
     text-transform: uppercase;
     color: white;
   }
-
   .badge:hover {
     color: white;
     text-decoration: none;
     font-size: 1rem;
     border: 2px outset white;
   }
-
   .dropdown {
     position: absolute;
     top: 0;
     right: 0;
-
     a {
       color: #bbb9b9;
     }
-
     a:hover {
       color: #bbb9b9;
     }
   }
-
   li {
     list-style-type: none;
     padding: 0;
   }
-
   h1 {
     color: white;
     font-family: 'Alegreya Sans', sans-serif;
@@ -56,7 +48,6 @@ header {
     margin-bottom: 1.8rem;
     text-transform: uppercase;
   }
-
   h2 {
     color: white;
     font-size: 2.6rem;
@@ -64,7 +55,6 @@ header {
     font-weight: bold;
     margin-bottom: 2rem;
   }
-
   .navbar {
     text-align: left;
   }
@@ -73,20 +63,17 @@ header {
 /*----------  Main  ----------*/
 main {
   padding: 1rem;
-
   h3 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 3rem;
   }
-
   .card {
     box-shadow: 1px 6px 24px -11px rgba(0,0,0,0.75);
   }
 }
 /*----------  Main  ----------*/
 /*----------  Footer  ----------*/
-
 footer {
   background: #0f3e57;
   padding: 3rem;
@@ -105,7 +92,6 @@ footer {
     color: #a69f92;
   }
 }
-
 /*----------  Footer  ----------*/
 /*----------  Media  ----------*/
 @media screen and (min-width:992px) {
