@@ -1,3 +1,4 @@
+@import "mixin";
 /*----------  Mother  ----------*/
 .container-fluid {
   padding: 0;
@@ -5,77 +6,11 @@
 /*----------  Mother  ----------*/
 /*----------  Header  ----------*/
 header {
-  text-align: center;
-  color: #bbb9b9;
-  position: relative;
-  background-image: url("/home/thibault/CODE/Challenge/Int_Boutique/jd_turk_streaming.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  .dropdown-menu {
-    background-color: transparent;
-  }
-
-  .badge {
-    background: #a28f61;
-    padding: 1rem 2rem;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    color: white;
-  }
-
-  .badge:hover {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    border: 2px outset white;
-  }
-
-  .dropdown {
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    a {
-      color: #bbb9b9;
-    }
-
-    a:hover {
-      color: #bbb9b9;
-    }
-  }
-
-  li {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  h1 {
-    color: white;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 3.5em;
-    font-weight: bold;
-    margin-bottom: 1.8rem;
-    text-transform: uppercase;
-  }
-
-  h2 {
-    color: white;
-    font-size: 2.6rem;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: bold;
-    margin-bottom: 2rem;
-  }
-
-  .navbar {
-    text-align: left;
-  }
+  @include header;
 }
 /*----------  Header  ----------*/
 /*----------  Main  ----------*/
-main {
+#main_catalog {
   padding: 1rem;
 
   h3 {
@@ -91,44 +26,23 @@ main {
 /*----------  Main  ----------*/
 /*----------  Footer  ----------*/
 footer {
-  background: #0f3e57;
-  padding: 3rem;
-  margin-top: 4rem;
-
-  i {
-    margin-right: 1rem;
-  }
-
-  h4 {
-    color: white;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    color: #a69f92;
-  }
+  @include footer;
 }
 /*----------  Footer  ----------*/
 /*----------  Media  ----------*/
 @media screen and (min-width:992px) {
   .title {
-    width: 30rem;
-    margin: auto;
-    padding: 10rem 0 15rem;
+    @include media992min;
   }
 }
 @media screen and (min-width:1300px) {
-  main {
+#main_catalog {
     padding: 5rem;
   }
 }
 @media screen and (max-width:992px) {
   .title {
-    padding: 3rem 0 5rem;
+    @include media992max;
   }
 }
 /*----------  Media  ----------*/
