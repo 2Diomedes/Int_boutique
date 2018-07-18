@@ -1,7 +1,7 @@
 @import "mixin";
 /*----------  Mother  ----------*/
 .container-fluid {
-  padding: 0;
+  // padding: 0;
 }
 /*----------  Mother  ----------*/
 /*----------  Header  ----------*/
@@ -28,8 +28,10 @@ header {
   margin: 5rem auto;
 }
 
-.prod_list {
+.cart {
   margin: 5rem auto;
+  height: 500px;
+  overflow: auto;
 }
 
 h6 {
