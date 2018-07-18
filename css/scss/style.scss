@@ -23,6 +23,32 @@ header {
     box-shadow: 1px 6px 24px -11px rgba(0,0,0,0.75);
   }
 }
+
+#product {
+  margin: 5rem auto;
+}
+
+.prod_list {
+  margin: 5rem auto;
+}
+
+h6 {
+  margin: 2rem 0 1rem 0;
+}
+
+.media, .prod_list {
+  margin: 3rem;
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li:hover {
+    background: #a28f61;
+  }
+}
+
+
+
 /*----------  Main  ----------*/
 /*----------  Footer  ----------*/
 footer {
